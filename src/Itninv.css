@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.itn_modal{
+    margin-left: 41.8rem;
+}
+.subs_modal{
+    margin-left: 37rem;
+}
+.invoice_modal{
+    margin-left: 42.3rem;
+}
+#flexRadioDefault1{
+    margin-top: 10px;
+}

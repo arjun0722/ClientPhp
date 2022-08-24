@@ -1,0 +1,18 @@
+.display{
+display: flex;
+align-items: center;
+}
+.display_btn{
+    margin-left: 1rem;
+}
+.rounded-circle{
+    height: 5rem;
+}
+.main_con{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.heading{
+    font-weight: bold;
+}

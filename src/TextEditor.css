@@ -1,0 +1,96 @@
+.controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 33px;
+    /* box-shadow: 0 0 6px black; */
+    /* border: 0.1px solid black; */
+    /* text-decoration: underline; */
+    /* text-decoration-color:grey ; */
+  
+}
+.hr2{
+    border: 0;
+    height: 3px;
+    background: #095484;
+    background-image: linear-gradient(to right, #ccc, #095484, #ccc);
+}
+.control-btn-container{
+    display: flex;
+}
+.control-btn{
+    width: 50px;
+    margin-left: 5px;
+    height: 100%;
+    box-shadow: none;
+}
+.main-controls{
+    display: flex;
+}
+#filename-input{
+  margin-left: 10px;
+}
+#content{
+    padding: 20px;
+    margin-top: 20px;
+    /* box-shadow: 0 0 5px black; */
+    /* border: 0.5px solid black; */
+    min-height: 170px;
+    box-shadow: 0 0 6px #00000090;
+}
+#title{
+    /* padding: 10px 0;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px; */
+    font-size: 1rem;
+    /* box-shadow: 0 0 1px black; */
+    /* box-shadow: 0 0 1px black; */
+    /* border: 0.5px solid black; */
+}
+ .control-btn{
+     /* height: 3rem !important; */
+     border-color: white !important;
+    background-color: white !important;
+  border: none;
+  height: 30px;
+  width: 30px;
+  background: none;
+  outline: none;
+  /* transition: 0.5s; */
+  display: block;
+  border: none;
+  outline-color: white;
+
+} 
+.control-btn:hover{
+    border-color: white;
+    border: none;
+}
+.control-btn:focus{
+  box-shadow: none !important;
+}
+.html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .gethtml{
+    flex: 1;
+} */
+/* #output{
+    flex: 2;
+}
+.htmlbtn{
+    margin-left: 10px;
+    margin-bottom: 60px;
+} */
+.html_main{
+    display: flex;
+   align-items: center;
+}
+.htmlbtn{
+    margin-left: 38rem;
+}
+#output{
+  text-align: center;
+}
